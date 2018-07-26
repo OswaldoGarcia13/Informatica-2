@@ -1,0 +1,39 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\begin{document}
+\title{Hoja de Trabajo No.1}
+\author{García Barrios, Oswaldo Jose}
+\maketitle
+\section*{Ejercicio 2, Abstracción }
+\subsection{conjunto de nodos}
+\{1,2,3,4,5,6\}
+\subsection{Conjunto de vertices }
+
+    $$
+        \left\langle \left\{
+            \begin{bmatrix}
+                \langle 1,2 \rangle & \langle 1, 3\rangle & \langle 1,4 \rangle \\
+                \langle 1,5 \rangle & \langle 2,3 \rangle & \langle 2,4 \rangle \\
+                \langle 2,6 \rangle & \langle 3,6 \rangle & \langle 3,5 \rangle \\
+                \langle 4,6 \rangle & \langle 4,5 \rangle & \langle 5,6 \rangle \\
+           
+            \end{bmatrix}
+        \right\}, 1, 6 \right\rangle
+    $$ \\
+\section*{Ejercicio 3}
+\subsection{Respuestas}
+\ >Qué estructura de datos podria representar un lanzamiento de dados?  
+
+\ - Estructura de camino, pues cada lanzamiento siempre será iniciado en el número "1", por lo tanto dicho número actua como padre de las démas caras.
+
+\ >Que algoritmo podriamos utilizar para generar dicha estructura?
+
+\ - Sería un algoritmo que siempre tenga como arranque predeterminado iniciar en el número "1", a partir de esto se le pide que este generé las distintas caras del dado de manera aleatoria, al completar todas las caras, regresar al uno y reiniciar el algoritmo, asi no se crea un ciclo.
+
+\ >Como nos aseguramos que ese algoritmo siempre produce un resultado?
+
+\ - Estableciendo las caras del dado, de esa manera siempre tendrá que arrojar una de estas como resultado.
+\end{document}
